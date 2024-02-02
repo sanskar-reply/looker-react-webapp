@@ -14,7 +14,6 @@ const center = {
 function MyComponent() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    // googleMapsApiKey: "AIzaSyCnrV7VzDtSQvV0H2OgD0ow79nolVdeEg4"// Use your environment variable here
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_PLACES_API_KEY,
   });
 
