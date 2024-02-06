@@ -2,6 +2,7 @@
 import React from 'react';
 import './App.css';
 import MyComponent from './maps'; // Import your MyComponent
+import YourComponent from './chatbot';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
 
         <div className="MyComponent-container">
         <MyComponent />          
+        </div>
+        <div className="search-bar-container">
+        <YourComponent />
         </div>
       </header>
     </div>
