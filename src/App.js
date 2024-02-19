@@ -13,7 +13,7 @@ function App() {
         <div className="iframe-container">
         <iframe
           title="Looker Dashboard"
-          src="https://goreply.cloud.looker.com/embed/dashboards/24"
+          src="https://goreply.cloud.looker.com/embed/dashboards/49"
           width="800"
           height="600"
         ></iframe>
