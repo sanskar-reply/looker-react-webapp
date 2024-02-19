@@ -58,3 +58,20 @@
 }
 
 /* Additional styling as needed */
+.search-bar-container {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.dialog-flow-container {
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  width: 450px;
+  }
